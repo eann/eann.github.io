@@ -1,5 +1,5 @@
 ---
-categories: 'General discussions'
+categories: ['General discussions']
 title: Neural basis of perceptual decision
 ---
 
@@ -17,7 +17,7 @@ the basis of your perception. This involves the extraction
 of a relevant signal from your senses, its integration, and the
 forming of a decision. But how can this happen inside our brains? One possible answer was given by Wang in 2002 with his "winner-takes-all" network.
 
-![winner-takes-all](../assets/wta_net_desc.png)
+<img src="/assets/wta_net_desc.png">
 
 The winner-takes-all network is a Recurrent Neural Network
 where two recurrent excitatory populations compete with each
@@ -30,7 +30,7 @@ encoding the relevant quantity perceived (e.g. a signal coding
 
 This behavior is best understood if one makes use of a conceptual simplification known as the energy landscape. Similarly to what happens with physical systems, we can define an energy function whose values, plotted in the phase space of the system, will give rise to the energy landscape. We can envision our system as a small ball on this landscape, which will run along a slope until it reaches the end of a hole (if there is one) and is trapped there.
 
-![energy landscape](../assets/landscape.png)
+<img src="/assets/landscape.png">
 
 The picture above depicts a representation of the energy landscape for our winner-takes-all network with different imbalances between the inputs (the "coh" parameter); when no stimulus is present, the network stays in the central region, in an attractor at low frequency for both A and B. When external stimulation is applied though, a decision boundary is formed and the landscape takes the form of a saddle. The system, driven by noise, begins to drift around it until it is too far in one of the valleys and falls in one of the attractors. The difference between the two inputs determines which attraction basin (the set of states from which you will fall into an attractor) is bigger, and thus which will be the most probable outcome. The model reproduces data previously gathered during a random dots experiment.
 
