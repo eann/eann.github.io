@@ -1,0 +1,5 @@
+theme: jekyll-theme-cayman
+title: Eis Annavini's blog
+description: Exploring the landscape of what biology can tell us about how to make sense of the world
+
+permalink: /:categories/:title/
