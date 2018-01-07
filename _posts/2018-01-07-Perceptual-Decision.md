@@ -1,5 +1,5 @@
 ---
-category: "General discussions"
+categories: 'General discussions'
 title: Neural basis of perceptual decision
 ---
 
